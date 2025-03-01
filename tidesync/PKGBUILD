@@ -29,7 +29,7 @@ package() {
     cd "$srcdir"
     install -Dm755 "$srcdir/tidesync/tidesync.fish" "$pkgdir/usr/share/fish/functions/tidesync.fish"
 
-    install -Dm755 "$srcdir/tidesync/sync_dirs.fish" "$pkgdir/usr/share/tidesync/sync_dirs.fish"
+    install -Dm755 "$srcdir/tidesync/load_config.fish" "$pkgdir/usr/share/tidesync/load_config.fish"
 
     install -Dm644 "$srcdir/tidesync/config.toml" "$pkgdir/etc/tidesync/config.toml"
 }
