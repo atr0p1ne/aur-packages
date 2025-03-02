@@ -8,7 +8,7 @@ pkgdesc="Syncing directories across devices. Written in Fish"
 arch=('any')
 url="https://github.com/atr0p1ne/tidesync"
 license=('GPL3')
-depends=('rsync' 'fish' 'rg')
+depends=('rsync' 'fish' 'ripgrep')
 source=("git+https://github.com/atr0p1ne/tidesync.git")
 sha256sums=('SKIP') # Use 'SKIP' if you’re testing or generating from GitHub
 
