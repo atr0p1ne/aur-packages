@@ -31,7 +31,7 @@ package() {
 
     install -Dm755 "$srcdir/tidesync/load_config.fish" "$pkgdir/usr/share/tidesync/load_config.fish"
 
-    install -Dm644 "$srcdir/tidesync/config_default.toml" "$pkgdir/usr/share/tidesync/config_default.toml"
+    install -Dm644 "$srcdir/tidesync/config_template.toml" "$pkgdir/usr/share/tidesync/config_template.toml"
 }
 
 # Optional: Clean up unnecessary files
