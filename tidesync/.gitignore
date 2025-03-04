@@ -1,8 +1,0 @@
-# Ignore build directories and package files
-pkg/
-src/
-
-# Ignore tidesync directories and package files
-tidesync
-tidesync-*.pkg.tar.zst
-
